@@ -1,0 +1,515 @@
+*{
+    padding: 0;
+   margin: 0;
+}
+.navbar{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+#mainlogo{
+     height: 30px;
+}
+#icon1{
+    text-decoration: none;
+   color: orange;
+    margin-right: 15px;
+      font-family: 'Poppins', sans-serif;
+     font-size: 13px;
+
+}
+#icon2{
+    text-decoration: none;
+   color: black;
+    margin-right: 15px;
+      margin-left: 9px;
+        font-family: 'Poppins', sans-serif;
+          font-size: 13px;
+
+}
+#icon2:hover{
+       color: orange;
+}
+#icon3{
+    text-decoration: none;
+    color:black;
+    margin-right: 15px;
+      margin-left: 10px;
+        font-family: 'Poppins', sans-serif;
+          font-size: 13px;
+}
+#icon3:hover{
+       color: orange;
+}
+#icon4{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+}
+#icon4:hover{
+       color: orange;
+}
+#number{
+    font-size: 18px;
+   font-family:  'Montserrat', sans-serif;;
+   text-decoration: none;
+   color: black;
+   margin-left: 8px;
+
+}
+#number:hover{
+       color: orange;
+}
+@media (max-width : 450px) {
+    .navbar{
+      height: 50px;
+      width: 500px;
+      flex-wrap: wrap;
+    }
+
+    #mainlogo{
+         height: 15px;
+         margin-top: 7px;
+    }
+    #icon1{
+      font-size: 8px;
+       margin-right: 9px;
+       margin-left: 10px;
+    }
+    .dash{
+      font-size: 10px;
+    }
+    
+     #icon2{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+      #icon3{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+      #icon4{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+     #number{
+    font-size: 9px;
+    margin-right: 55px;
+  
+}
+#phoneicon{
+  font-size: 10px;
+  
+}
+}
+.herosectionbgi{
+   background-image:  url(images/pizzabackgroundimg.png);
+   height: 600px;
+  width: 100%;
+   display: flex;
+  
+}
+#pizzimg{
+   margin-top: 30px;
+   height: 500px;
+    display: inline-block;
+   margin-left: 550px;
+   
+}
+.herosectioncontent1{
+     display: inline-block;
+  justify-content: center;
+}
+#heading1{
+  color: white;
+  background-color: rgb(207, 71, 71);
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 50px;
+  margin-top: 200px;
+  margin-left: 90px;
+ 
+}
+.mainsection{
+    padding: 50px 8%;
+ background-color: #f1f3f3;
+}
+.mainsectiondiv{
+    display: inline-block;
+    display: flex;
+  
+    margin-top: 40px;
+    margin-right: 110px;
+  
+   
+    gap: 20px;
+    
+}
+.mainsectionimg{
+    width: 45%;
+   
+    
+    display: inline-block
+    
+  
+  ;}
+    
+ 
+#pic1{
+    width: 900px;
+    /* display: inline-block; */
+    height: 650px;
+  display: flex;
+  
+
+  
+   
+
+    
+    
+    
+}
+.mainsectioncontent{
+    width: 55%;
+    margin-bottom: 100px;
+    display: inline-block;
+ 
+}
+#mainsectionheading{
+   font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 20px;
+}
+#mainsectionpara{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #777;
+    width: 600px;
+}
+.count{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.count h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #f5a623;
+    margin: 0;
+}
+.count p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.number {
+    --num: 0;
+    counter-reset: number var(--num);
+    animation: counting 0.8s ease-out forwards;
+}
+
+.number::after {
+    content: counter(number);
+}
+
+@keyframes counting {
+
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: var(--target);
+    }
+  }
+   .button2 {
+    margin-top: 25px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f45151;
+    color: white;
+    }
+    .iconbox{
+        background-color: white;
+        height: 500px;
+       display: flex;
+       justify-content: space-around;
+
+    }
+    .iconbox1{
+       
+       
+        display: inline-block;
+        margin-top: 120px;
+       width: 300px;
+       text-align: center;
+
+    }
+     .iconboxheading{
+        margin-top: 19px;
+       
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+    .iconboxpara{
+        margin-top: 10px;
+        line-height: 1.5;
+         color: #777;
+        
+    }
+   .iconbox2{
+       
+       
+        display: inline-block;
+        margin-top: 120px;
+       width: 300px;
+       text-align: center;
+
+    }
+    .iconbox3{
+       
+       
+        display: inline-block;
+        margin-top: 110px;
+       width: 300px;
+       text-align: center;
+
+    }
+    .iconbox4{
+       
+       
+        display: inline-block;
+        margin-top: 120px;
+       width: 300px;
+       text-align: center;
+
+    }
+    .menu{
+      margin-left: 75px;
+      width: 90%;
+    
+    } 
+    .imgsection{
+        background-image: url(images/main.jpg);
+        background-size: cover;
+        height: 600px;
+        margin-top: 100px;
+        margin-right: 0;
+       
+    
+    }
+    .sectioncontent{
+        text-align: center;
+      padding-top: 140px;
+     
+     font-family: 'Montserrat', 'Arial Black', sans-serif;
+   
+    }
+    #freedelivery{
+        color: white;
+    font-style: italic;
+    font-size: 30px;
+    }
+    #pizzaday{color: white;
+    font-style: italic;
+    font-size: 50px;
+    }
+     #num{
+        font-size: 80px;
+        margin-right: 80px;
+       margin-top: 10px; 
+       color: #F5AB16;
+        
+       
+    }
+    sup{
+        font-size : 50px;
+    }
+    #sandwich{
+         
+     
+     
+        margin-left: 300px;
+       
+       color: white;
+       
+      
+    }
+    #Salad{
+        margin-right: 35px;
+       
+    }
+    #button3{
+      background-color: #f05353; 
+    padding: 22px 70px;        
+    border-radius: 30px;      
+    border: none;
+    color: #ffffff;
+    position: relative;
+    bottom: 70px;
+  
+}
+#button3:hover{
+    background-color:  #F5AB16; ;
+}
+#ourchefs{
+   text-align: center;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+  
+.chefss{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    height: 600px;
+}
+.chefimg2{
+    border-radius: 50%;
+}
+
+.chefname1{
+    color: #F3AF3D;
+    line-height: 2;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+.chefpara1{
+     color: #777;
+     line-height: 1.5
+     ;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 78px;
+      font-style: italic;
+      margin-bottom: 15px;
+}
+.chefname2{
+    color: #F3AF3D;
+    line-height: 2;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.chefpara2{
+     color: #777;
+     line-height: 1.5
+     ;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 80px;
+      font-style: italic;
+      margin-bottom: 15px;
+}
+
+.chefname3{
+    color: #F3AF3D;
+    line-height: 2;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-size: 25px;
+}
+.chefpara3{
+     color: #777;
+     line-height: 1.5
+     ;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 82px;
+      font-style: italic;
+      margin-bottom: 15px;
+}
+.logossection{
+    height: 500px;
+}
+.logoheading{
+    text-align: center;
+     font-family: 'Montserrat', sans-serif;
+
+}
+.logopara{
+     text-align: center;
+      color: #777;
+      line-height: 1.5;
+      margin-top: 15px;
+}
+.logoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.imges{
+    height: 800px;
+    
+    display: flex;
+    margin-top: 80px;
+     
+  
+    
+}
+   .img1{
+      height: 300px;
+      width: 335px;
+       transition: 0.3s ease;
+    cursor: pointer;
+   }
+   .img1:hover{
+ transform: scale(1.08);
+}
+ .img2{
+      height: 300px;
+      width: 335px;
+       transition: 0.3s ease;
+    cursor: pointer;
+   }
+   .img2:hover{
+ transform: scale(1.08);
+}
+
+ .img3{
+      height: 300px;
+      width: 335px;
+       transition: 0.3s ease;
+    cursor: pointer;
+   }
+   .img3:hover{
+ transform: scale(1.08);
+}
+
+ .img4{
+      height: 300px;
+      width: 335px;
+       transition: 0.3s ease;
+    cursor: pointer;
+   }
+   .img4:hover{
+ transform: scale(1.08);
+}
+
+
+   
+
+
